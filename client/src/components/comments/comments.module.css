@@ -1,0 +1,45 @@
+.conainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 24pxpx;
+}
+
+.container h1 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+    color: #1f2937;
+}
+
+.commentText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+}
+
+.commentText textarea {
+    width: 100%;
+    padding: 16px;
+    outline: none;
+    border-radius: 15px;
+    resize: none;
+}
+
+.commentText button {
+    background-color: #1e40af;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}

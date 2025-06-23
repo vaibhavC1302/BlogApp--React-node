@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.imageContainer {}
+
+.image {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.detailsTitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.detailsInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: grey;
+    font-size: 0.75rem;
+}
+
+.link {
+    color: #1e40af;
+}
+
+@media (min-width: 768px) {
+    .imageContainer {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    .imageContainer {
+        display: block;
+        width: 33%;
+        height: auto;
+    }
+
+    .detailsContainer {
+        width: 66%;
+
+    }
+
+}

@@ -1,0 +1,48 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+
+body {
+
+  background-color: #e6e6ff;
+  width: 100wv;
+  overflow-x: hidden;
+  padding: 0 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  body {
+    padding: 0 16rem;
+  }
+}
+
+.ql-container {
+  border: none !important;
+}
+
+.ql-toolbar {
+  border: none !important;
+}
+
+.ql-editor {
+  border: none !important;
+}

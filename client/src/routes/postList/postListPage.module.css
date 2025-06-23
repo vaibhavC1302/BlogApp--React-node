@@ -1,0 +1,44 @@
+.title {
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+}
+
+.menuBtn {
+    font-size: 0.75rem;
+    color: white;
+    background-color: #1e40af;
+    padding: 8px 16px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+}
+
+.sideMenuContainer {}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .menuBtn {
+        display: none;
+    }
+
+    .contentContainer {
+        flex-direction: row;
+    }
+
+    .sideMenuContainer {
+        display: block;
+    }
+}

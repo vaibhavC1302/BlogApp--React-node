@@ -1,0 +1,111 @@
+.container {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.imgButton {
+    width: max-content;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    background-color: white;
+    color: #6b7280;
+    border: none;
+    outline: none;
+    font-size: 0.75rem;
+}
+
+.inputTitle {
+    font-size: 2.75rem;
+    font-weight: 600;
+    background: transparent;
+    outline: none;
+
+}
+
+.optionsContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.selectButton {
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.postContent {
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.editor {
+    flex: 1;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    outline: none;
+    flex: 1;
+
+}
+
+.sendButton {
+    width: max-content;
+    padding: 8px 32px;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sendButton:disabled {
+    background-color: #808080;
+    cursor: not-allowed
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 4px;
+}
+
+.imgBtnContainer {
+    display: flex;
+    gap: 8px;
+}
+
+.imgBtnContainer div {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .container {
+        height: calc(100vh - 90px);
+    }
+}

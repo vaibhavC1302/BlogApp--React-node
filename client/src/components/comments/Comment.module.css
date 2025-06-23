@@ -1,0 +1,43 @@
+.container {
+    padding: 16px;
+    border-radius: 15px;
+    margin-bottom: 32px;
+    margin-top: 24px;
+    background-color: #f8fafc;
+}
+
+.userInfo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo span {
+    font-size: 1rem;
+}
+
+.userInfo .time {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.content {
+    margin-top: 16px;
+}
+
+.deleteCommentBtn {
+    font-size: 0.75rem;
+    color: red;
+    cursor: pointer;
+}
+
+.deleteCommentBtn:hover {
+    color: rgb(124, 20, 20);
+}

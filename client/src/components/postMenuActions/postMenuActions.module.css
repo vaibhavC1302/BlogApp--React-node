@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.actionContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    /* justify-content: space-between; */
+}

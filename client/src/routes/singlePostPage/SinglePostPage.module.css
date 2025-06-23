@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* top details container */
+.detailsContainer {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* text details */
+.detailsText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.smallInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: grey;
+    font-size: 0.75rem;
+}
+
+.link {
+    color: #1e3a8a;
+}
+
+.content {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+
+/* image */
+.imageContainer {
+    display: none;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* content section */
+/* text content */
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    /* gap: 8px; */
+    text-align: justify;
+}
+
+
+/* menu content */
+
+.menuContainer {
+    padding: 0 16px;
+    position: sticky;
+    top: 0;
+    height: max-content;
+}
+
+.menuUserInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuUserImg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 8px;
+}
+
+.menuLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.75rem;
+}
+
+.menuLink {
+    text-decoration: underline;
+}
+
+.menuTitle {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .detailsText {
+        width: 60%;
+    }
+
+    .imageContainer {
+        display: block;
+        width: 40%;
+
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .contentContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .textContent {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+
+@media (min-width: 1536px) {
+    .title {
+        font-size: 3.25rem;
+    }
+}
